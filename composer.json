@@ -1,0 +1,18 @@
+{
+    "name": "prolyfix/complex-relation-bundle",
+    "description": "allow to make Many To One and Many To Many using, based on Doctrine and Symfony",
+    "license": "proprietary",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Marc Baudot",
+            "email": "marc.baudot@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prolyfix\\GeoBundle\\": "src",
+            "Prolyfix\\GeoBundle\\Tests\\": "tests"
+        }
+    }
+}
