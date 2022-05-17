@@ -1,5 +1,5 @@
 {
-    "name": "prolyfix/symfony-complex-relation-bundle",
+    "name": "prolyfix/symfony-complex-index-relation-bundle",
     "description": "allow to make Many To One and Many To Many using, based on Doctrine and Symfony",
     "license": "proprietary",
     "type": "symfony-bundle",
