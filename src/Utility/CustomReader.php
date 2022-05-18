@@ -1,5 +1,5 @@
 <?php
-namespace App\Utility;
+namespace Prolyfix\SymfonyComplexIndexRelationBundle\Utility;
 
 use ReflectionAttribute;
 

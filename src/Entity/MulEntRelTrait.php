@@ -1,5 +1,5 @@
 <?php
-namespace App\Entity;
+namespace Prolyfix\SymfonyComplexIndexRelationBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 

@@ -1,6 +1,6 @@
 <?php
 // src/EventListener/DatabaseActivitySubscriber.php
-namespace App\EventSubscriber;
+namespace Prolyfix\SymfonyComplexIndexRelationBundle\EventSubscriber;
 
 use App\Annotations\ComplexIndex;
 use Doctrine\Bundle\DoctrineBundle\EventSubscriber\EventSubscriberInterface;

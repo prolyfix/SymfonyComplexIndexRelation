@@ -2,7 +2,7 @@
 
 namespace App\Entity;
 
-use App\Repository\TaskRepository;
+use Prolyfix\SymfonyComplexIndexRelationBundle\Repository\TaskRepository;
 use Doctrine\ORM\Mapping as ORM;
 use App\Entity\MulEntRelTrait;
 

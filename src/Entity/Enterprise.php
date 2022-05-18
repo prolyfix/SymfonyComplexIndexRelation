@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Entity;
+namespace Prolyfix\SymfonyComplexIndexRelationBundle\Entity;
 
-use App\Repository\EnterpriseRepository;
+use Prolyfix\SymfonyComplexIndexRelationBundle\Repository\EnterpriseRepository;
 use Doctrine\ORM\Mapping as ORM;
-use App\Annotations\ComplexIndex;
+use Prolyfix\SymfonyComplexIndexRelationBundle\Annotations\ComplexIndex;
 
 #[ORM\Entity(repositoryClass: EnterpriseRepository::class)]
 class Enterprise
