@@ -11,8 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Prolyfix\\ComplexIndexBundle\\": "src",
-            "Prolyfix\\ComplexIndexBUndle\\Tests\\": "tests"
+            "Prolyfix\\SymfonyComplexIndexRelationBundle\\": "src",
+            "Prolyfix\\SymfonyComplexIndexRelationBundle\\Tests\\": "tests"
         }
     }
 }
