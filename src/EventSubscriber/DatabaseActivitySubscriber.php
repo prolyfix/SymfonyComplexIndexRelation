@@ -2,12 +2,12 @@
 // src/EventListener/DatabaseActivitySubscriber.php
 namespace Prolyfix\SymfonyComplexIndexRelationBundle\EventSubscriber;
 
-use App\Annotations\ComplexIndex;
+use Prolyfix\SymfonyComplexIndexRelationBundle\Annotations\ComplexIndex;
 use Doctrine\Bundle\DoctrineBundle\EventSubscriber\EventSubscriberInterface;
 use Doctrine\ORM\Events;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
-use App\Utility\CustomReader;
+use Prolyfix\SymfonyComplexIndexRelationBundle\Utility\CustomReader;
 
 class DatabaseActivitySubscriber implements EventSubscriberInterface
 {
