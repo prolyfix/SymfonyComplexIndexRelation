@@ -6,9 +6,15 @@ use Doctrine\ORM\Mapping as ORM;
 trait MulEntRelTrait{
 
     #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    /**
+     * @ORM\Column(type="string", length=255,nullable=true)
+     */
     private $ref;
 
     #[ORM\Column(type: 'integer', nullable: true)]
+    /**
+     * @ORM\Column(type="string", length=255,nullable=true)
+     */
     private $refId;
 
     private $entity;
