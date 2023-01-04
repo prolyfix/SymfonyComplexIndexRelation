@@ -1,10 +1,9 @@
 <?php
-
 namespace Prolyfix\SymfonyComplexIndexRelationBundle\Annotations;
-use Doctrine\Common\Annotations\Annotation;
+use Attribute;
 
-#[Annotation]
-Class ComplexIndex extends Annotation
+#[Attribute]
+Class ComplexIndex
 {
     public $type;
 
